@@ -9,7 +9,7 @@ export const Sidebar = (props) => {
     {props.isOpen ? 'Close' : 'Open'} it{props.isOpen ? '. ☹️ ' : '! 😄'}
     </button>
     <div className={'sidebar padding-medium ' + (props.isOpen ? 'is-open' : '')}>
-      <button className='btn btn-default' onClick={props.closeSidebar}>
+      <button className='btn btn-red' onClick={props.closeSidebar}>
       Close Sidebar 👻
       </button>
     </div>
